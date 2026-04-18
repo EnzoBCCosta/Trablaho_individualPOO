@@ -12,7 +12,6 @@ class ContaBancaria {
         System.out.printf("Conta %d criada para %s. Bônus de R$50 aplicado!%n", numero, titular);
     }
 
-
     public void depositar(double valor) {
         this.saldo += valor;
     }
